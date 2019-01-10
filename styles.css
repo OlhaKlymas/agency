@@ -125,19 +125,25 @@ a {
 
 .services-section {
   background-color: #f5f5f5;
-  min-height: 625px; }
+  min-height: 624px; }
   .services-section h2 {
     text-align: center;
     padding: 70px 40px 62px 0px; }
 
+.services-wrap-first-line {
+  padding-bottom: 77px; }
+
 .services {
-  width: 32%;
-  display: inline-block;
-  padding: 0px 35px 17px 6px; }
+  width: 33%;
+  display: inline-block; }
+  .services:first-child {
+    width: 32%;
+    padding-right: 22px; }
   .services:last-child {
-    padding-right: 10px; }
+    width: 31%; }
   .services .services-container {
-    display: flex; }
+    display: flex;
+    padding-left: 6px; }
     .services .services-container .services-img-wrap {
       width: 62px;
       height: 62px;
@@ -154,6 +160,20 @@ a {
         font-size: 25px; }
       .services .services-container .services-text-wrap p {
         font-size: 14px;
-        line-height: 24px; }
+        line-height: 25px;
+        padding-top: 16px; }
+
+.process-section {
+  background-color: #fff;
+  min-height: 617px; }
+  .process-section h2 {
+    padding-top: 90px;
+    padding-left: 18px; }
+  .process-section .process-container {
+    display: flex; }
+    .process-section .process-container .process-text p {
+      width: 42%; }
+    .process-section .process-container .process-img-wrap {
+      position: absolute; }
 
 /*# sourceMappingURL=styles.css.map */
