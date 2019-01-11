@@ -168,12 +168,48 @@ a {
   min-height: 617px; }
   .process-section h2 {
     padding-top: 90px;
-    padding-left: 18px; }
+    padding-left: 180px; }
   .process-section .process-container {
-    display: flex; }
-    .process-section .process-container .process-text p {
-      width: 42%; }
+    display: flex;
+    padding-left: 160px; }
+    .process-section .process-container .process-text {
+      width: 24%; }
+      .process-section .process-container .process-text p {
+        line-height: 25px;
+        font-size: 14px;
+        padding: 53px 10px 0px 25px; }
+      .process-section .process-container .process-text .btn {
+        padding: 48px 0px 0px 10px; }
     .process-section .process-container .process-img-wrap {
-      position: absolute; }
+      width: 52%;
+      padding-top: 25px;
+      display: flex;
+      justify-content: space-between; }
+      .process-section .process-container .process-img-wrap .process-img {
+        display: inline-block;
+        padding-left: 93px; }
+        .process-section .process-container .process-img-wrap .process-img:first-child {
+          padding-left: 0px; }
+        .process-section .process-container .process-img-wrap .process-img img {
+          position: absolute;
+          width: 425px; }
+        .process-section .process-container .process-img-wrap .process-img:last-child img {
+          width: 284px; }
+        .process-section .process-container .process-img-wrap .process-img .process-img-text {
+          position: absolute;
+          color: #fff; }
+          .process-section .process-container .process-img-wrap .process-img .process-img-text h4 {
+            text-align: right;
+            width: 79%;
+            font-size: 52px;
+            font-weight: 600;
+            margin-top: 21px;
+            opacity: 0.7; }
+          .process-section .process-container .process-img-wrap .process-img .process-img-text .process-img-text-down {
+            width: 30%; }
+            .process-section .process-container .process-img-wrap .process-img .process-img-text .process-img-text-down h3 {
+              text-transform: uppercase;
+              font-size: 38px;
+              font-weight: 400; }
 
 /*# sourceMappingURL=styles.css.map */
