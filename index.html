@@ -6,6 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 </head>
 <body>
 	<header data-anchor="home">
@@ -135,7 +137,9 @@
 				<div class="process-img">
 					<img src="img/idea.png">
 					<div class="process-img-text">
-						<h4>1.</h4>
+						<div>
+							<h4>1.</h4>
+						</div>
 						<div class="process-img-text-down">
 							<h3>idea</h3>
 							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
@@ -166,11 +170,15 @@
 	</section>
 	<section data-anchor="team">
 		<h2>Our creative team</h2>
-		<div>
-			<img src="img/team-1.png">
-			<img src="img/team-2.png">
-			<img src="img/team-3.png">
-		</div>
+			<div class="owl-carousel">
+			  <div> Your Content </div>
+			  <div> Your Content </div>
+			  <div> Your Content </div>
+			  <div> Your Content </div>
+			  <div> Your Content </div>
+			  <div> Your Content </div>
+			  <div> Your Content </div>
+			</div>
 	</section>
 	<section data-anchor="clients">
 		<h2>What client says</h2>
@@ -220,5 +228,8 @@
 		<hr>
 		<p>Copyright 2017. PSDFreebies.com | Best PSD Template for freelancer and agencies</p>
 	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+	<script src="owlcarousel/owl.carousel.min.js"></script>
 </body>
 </html>
