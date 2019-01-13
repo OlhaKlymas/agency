@@ -222,4 +222,11 @@ a {
               line-height: 26px;
               visibility: hidden; }
 
+.owl-carousel {
+  width: 70%;
+  margin: auto; }
+  .owl-carousel .owl-item:focus-within {
+    zoom: 1.1;
+    transition: 1.5s; }
+
 /*# sourceMappingURL=styles.css.map */
