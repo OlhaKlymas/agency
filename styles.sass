@@ -109,14 +109,24 @@ a
 
 // *** section ABOUT US ***
 
-.about-as-section
+.about-us-section
 	min-height: 483px
+	.about-us-bg
+		width: 864px
+		height: 484px
+		position: absolute
+		background-color: #000
+		right: 0
+		clip-path: polygon(0 0%, 126% 0, 63% 113%)
+		-webkit-clip-path: polygon(0 0%, 126% 0, 63% 113%)
+		-ms-clip-path: polygon(0 0%, 126% 0, 63% 113%)
 
-.about-as-wrap
+.about-us-wrap
 	display: flex
 	padding-top: 70px
+	position: relative
 
-.about-as-text
+.about-us-text
 	p
 		font-size: 13px
 		padding: 50px 0px 73px 20px
@@ -124,14 +134,22 @@ a
 	.btn
 		margin-left: 11px
 
-.about-as-lap
+.about-us-lap
 	width: 57%
 	padding: 16px 6px 0px 0px
 	img
 		width: 635px
 
 // *** section SERVICES ***
-
+.services-bg
+	width: 85px
+	height: 170px
+	margin-top: 261px
+	position: absolute
+	background-color: #bc2e3a
+	clip-path: polygon(0% 0%, 100% 50%, 0% 100%)
+	-webkit-clip-path: polygon(0% 0%, 100% 50%, 0% 100%)
+	-ms-clip-path: polygon(0% 0%, 100% 50%, 0% 100%)
 .services-section
 	background-color: #f5f5f5
 	min-height: 624px
@@ -174,6 +192,25 @@ a
 .process-section
 	background-color: #fff
 	min-height: 617px
+	.process-bg-right
+		width: 485px
+		height: 970px
+		right: 0
+		margin-top: -166px
+		position: absolute
+		background-color: #bc2e3a
+		clip-path: polygon(100% 0%, 100% 100%, 0% 50%)
+		-webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 50%)
+		-ms-clip-path: polygon(100% 0%, 100% 100%, 0% 50%)
+	.process-bg-left
+		width: 183px
+		height: 365px
+		margin-top: 439px
+		position: absolute
+		background-color: #000
+		clip-path: polygon(0% 0%, 100% 50%, 0% 100%)
+		-webkit-clip-path: polygon(0% 0%, 100% 50%, 0% 100%)
+		-ms-clip-path: polygon(0% 0%, 100% 50%, 0% 100%)
 	h2
 		padding-top: 90px
 		padding-left: 180px
@@ -232,9 +269,154 @@ a
 							visibility: hidden
 
 // *** section TEAM ***
-.owl-carousel
-	width: 70%
-	margin: auto
-	.owl-item:focus-within
-		zoom: 1.1
-		transition: 1.5s
+.team-section
+	background-color: #f5f5f5
+	min-height: 668px
+	.owl-carousel
+		width: 70%
+		margin: auto
+		.owl-item:focus-within
+			zoom: 1.1
+			transition: 1.5s
+
+// *** section CLIENT ***
+.clients-section
+	min-height: 547px
+	.client-bg-right
+		width: 265px
+		height: 265px
+		right: 0
+		margin-top: -75px
+		position: absolute
+		background-color: #000
+		clip-path: polygon(100% 0%, 100% 100%, 0% 0%)
+		-webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 0%)
+		-ms-clip-path: polygon(100% 0%, 100% 100%, 0% 0%)
+	.client-bg-left
+		width: 397px
+		height: 800px
+		margin-top: -133px
+		position: absolute
+		background-color: #bc2e3a
+		clip-path: polygon(0% 0%, 100% 50%, 0% 100%)
+		-webkit-clip-path: polygon(0% 0%, 100% 50%, 0% 100%)
+		-ms-clip-path: polygon(0% 0%, 100% 50%, 0% 100%)
+	h2
+		margin: 75px 0px 85px 265px
+	.client-wrap
+		display: flex
+		flex-wrap: wrap
+		flex-direction: row
+		justify-content: center
+		.client-img
+			width: 245px
+			height: 245px
+			transform: rotate(45deg)
+			overflow: hidden
+			box-shadow: 0 0 40px rgba(0, 0, 0, 0.25)
+			img
+				max-width: 100%
+				transform: rotate(-45deg) scale(1.42)
+		.client-text-wrap
+			width: 52%
+			padding-top: 36px
+			.client-text
+				display: flex
+				flex-direction: row
+				padding-left: 70px
+				letter-spacing: -0.1px
+				p 
+					font-style: italic
+					padding-left: 6px
+					line-height: 25px
+				span
+					font-size: 172px
+					line-height: 81px
+			.client-description
+				margin: 24px 0px 0px 144px
+				p 
+					font-weight: 600
+			.other-clients
+				display: flex
+				flex-direction: row
+				flex-wrap: wrap
+				margin: 44px 0px 0px 167px
+				img
+					width: 66px
+					height: 66px
+
+// *** FOOTER ***
+footer
+	width: 100%
+	min-height: 480px
+	background-image: url(img/bg-down.png)
+	background-size: cover
+	background-position: center center
+	color: #fff
+	.footer-bg-triangle
+		width: 265px
+		height: 146px
+		right: 0
+		margin-top: 334px
+		position: absolute
+		background-color: #bc2e3a
+		clip-path: polygon(110% 100%, 1% 100%, 56% 0%)
+		-webkit-clip-path: polygon(110% 100%, 1% 100%, 56% 0%)
+		-ms-clip-path: polygon(110% 100%, 1% 100%, 56% 0%)
+	.footer-wrap
+		background: rgba(0, 0, 0, 0.85)
+		min-height: 480px
+		h2
+			padding-top: 65px
+			text-align: center
+		.footer-contact-wrap
+			width: 73%
+			display: flex
+			justify-content: space-between
+			margin: auto
+			padding: 65px 0px 70px 0px
+			.contact
+				display: flex
+				flex-direction: row
+				flex-wrap: wrap
+				img
+					width: 30px
+				&:last-child, &:first-child
+					img
+						width: 44px
+				.email
+					img
+						margin: 10px 25px 0px 5px
+				.phone
+					img
+						margin-right: 35px
+				.office
+					img
+						margin-right: 32px
+				p
+					font-size: 15px
+					padding-bottom: 12px
+				.name
+					font-weight: 600
+					font-size: 19px
+	.social-buttons
+		display: flex
+		flex-wrap: wrap
+		width: 27%
+		margin: auto
+		justify-content: space-between
+		a
+			.fab
+				color: #fff
+				font-size: 21px
+				font-weight: 600
+	hr
+		margin-top: 28px
+		width: 46%
+	.copyright
+		margin: auto
+		width: 46%
+		p
+			padding-top: 18px
+			font-size: 14px
+			text-align: center
