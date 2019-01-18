@@ -9,6 +9,7 @@ $(function() {
     autoplay: true,
     autoplayTimeout: 3000,
     smartSpeed: 2000,
+    center:true,
   });
 });
 

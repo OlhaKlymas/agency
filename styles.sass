@@ -270,14 +270,30 @@ a
 
 // *** section TEAM ***
 .team-section
+	width: 100%
 	background-color: #f5f5f5
 	min-height: 668px
+	h2
+		text-align: center
+		padding: 78px 0px 20px 0px
 	.owl-carousel
 		width: 70%
 		margin: auto
-		.owl-item:focus-within
-			zoom: 1.1
-			transition: 1.5s
+		.owl-item
+			img
+				padding-top: 61px
+		.active
+			transform: scale(1)
+			transition: 1s
+			opacity: 0.6
+		.center
+			transform: scale(1.5)
+			transition: 1s
+			z-index: 1
+			opacity: 1			
+		.owl-stage-outer
+			min-height: 390px
+
 
 // *** section CLIENT ***
 .clients-section
