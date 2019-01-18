@@ -271,6 +271,33 @@ a {
   .team-section .owl-carousel {
     width: 70%;
     margin: auto; }
+    .team-section .owl-carousel .owl-dots .owl-dot {
+      display: none; }
+    .team-section .owl-carousel .owl-nav {
+      display: flex;
+      position: absolute;
+      justify-content: space-between;
+      width: 126%;
+      margin: -271px 0px 0px -124px; }
+      .team-section .owl-carousel .owl-nav .owl-prev, .team-section .owl-carousel .owl-nav .owl-next {
+        width: 43px;
+        height: 85px;
+        background-size: contain;
+        background-repeat: no-repeat; }
+        .team-section .owl-carousel .owl-nav .owl-prev span, .team-section .owl-carousel .owl-nav .owl-next span {
+          display: none; }
+        .team-section .owl-carousel .owl-nav .owl-prev:hover, .team-section .owl-carousel .owl-nav .owl-next:hover {
+          background: none;
+          width: 48px;
+          height: 97px; }
+      .team-section .owl-carousel .owl-nav .owl-prev {
+        background-image: url(img/arrow-left.png); }
+        .team-section .owl-carousel .owl-nav .owl-prev:hover {
+          background-image: url(img/arrow-left.png); }
+      .team-section .owl-carousel .owl-nav .owl-next {
+        background-image: url(img/arrow-right.png); }
+        .team-section .owl-carousel .owl-nav .owl-next:hover {
+          background-image: url(img/arrow-right.png); }
     .team-section .owl-carousel .team-description {
       margin: -70px 60px 0;
       position: relative;
@@ -312,7 +339,7 @@ a {
             font-style: italic;
             font-weight: 400; }
     .team-section .owl-carousel .owl-stage-outer {
-      min-height: 430px; }
+      min-height: 470px; }
 
 .clients-section {
   min-height: 547px; }

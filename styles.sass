@@ -279,6 +279,34 @@ a
 	.owl-carousel
 		width: 70%
 		margin: auto
+		.owl-dots 
+			.owl-dot
+				display: none
+		.owl-nav
+			display: flex
+			position: absolute
+			justify-content: space-between
+			width: 126%
+			margin: -271px 0px 0px -124px
+			.owl-prev, .owl-next
+				width: 43px
+				height: 85px
+				background-size: contain
+				background-repeat: no-repeat
+				span
+					display: none
+				&:hover
+					background: none
+					width: 48px
+					height: 97px
+			.owl-prev				
+				background-image: url(img/arrow-left.png)
+				&:hover
+					background-image: url(img/arrow-left.png)
+			.owl-next
+				background-image: url(img/arrow-right.png)
+				&:hover
+					background-image: url(img/arrow-right.png)
 		.team-description
 			margin: -70px 60px 0
 			position: relative
@@ -321,7 +349,7 @@ a
 						font-style: italic
 						font-weight: 400
 		.owl-stage-outer
-			min-height: 430px
+			min-height: 470px
 
 
 // *** section CLIENT ***
