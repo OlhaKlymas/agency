@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,800");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,800");
 body {
   font-family: "Open Sans", sans-serif; }
 
@@ -220,46 +220,56 @@ a {
       .process-section .process-container .process-text .btn {
         padding: 48px 0px 0px 10px; }
     .process-section .process-container .process-img-wrap {
-      width: 52%;
+      position: absolute;
+      right: 0;
       padding-top: 25px;
       display: flex;
       justify-content: space-between; }
       .process-section .process-container .process-img-wrap .process-img {
-        display: inline-block;
-        padding-left: 93px; }
-        .process-section .process-container .process-img-wrap .process-img:first-child {
-          padding-left: 0px; }
+        display: flex;
+        flex-wrap: wrap; }
         .process-section .process-container .process-img-wrap .process-img img {
-          position: absolute;
-          width: 425px; }
+          width: 425px;
+          height: 305px;
+          margin-left: -115px; }
+        .process-section .process-container .process-img-wrap .process-img:first-child img, .process-section .process-container .process-img-wrap .process-img:first-child .process-img-text {
+          margin: 0px; }
+          .process-section .process-container .process-img-wrap .process-img:first-child img .process-img-text-down, .process-section .process-container .process-img-wrap .process-img:first-child .process-img-text .process-img-text-down {
+            padding-left: 95px; }
         .process-section .process-container .process-img-wrap .process-img:last-child img {
-          width: 284px; }
-        .process-section .process-container .process-img-wrap .process-img .process-img-text {
-          position: absolute;
-          height: 268px;
-          color: #fff;
-          display: flex;
-          flex-direction: column;
-          align-content: space-between;
-          opacity: 0.7; }
-          .process-section .process-container .process-img-wrap .process-img .process-img-text:hover + p {
-            visibility: visible; }
-          .process-section .process-container .process-img-wrap .process-img .process-img-text h4 {
-            margin: 21px 0px 0px 0px;
-            text-align: right;
-            width: 65%;
-            font-size: 52px;
-            font-weight: 600; }
-          .process-section .process-container .process-img-wrap .process-img .process-img-text .process-img-text-down {
-            width: 35%;
-            padding: 44px 0px 0px 95px; }
-            .process-section .process-container .process-img-wrap .process-img .process-img-text .process-img-text-down h3 {
-              text-transform: uppercase;
-              font-size: 38px;
-              font-weight: 400; }
-            .process-section .process-container .process-img-wrap .process-img .process-img-text .process-img-text-down p {
-              line-height: 26px;
-              visibility: hidden; }
+          width: 285px; }
+        .process-section .process-container .process-img-wrap .process-img:last-child .process-img-text {
+          align-items: flex-end;
+          margin-left: -30px; }
+        .process-section .process-container .process-img-wrap .process-img:hover .process-img-text .process-img-text-down {
+          padding-bottom: 13px; }
+          .process-section .process-container .process-img-wrap .process-img:hover .process-img-text .process-img-text-down p {
+            display: block;
+            width: 200px;
+            line-height: 24px; }
+      .process-section .process-container .process-img-wrap .process-img-text {
+        height: 255px;
+        width: 167px;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        color: #fff;
+        opacity: 0.8;
+        margin-left: -25px; }
+        .process-section .process-container .process-img-wrap .process-img-text div:first-child h4 {
+          padding: 25px 0px 0px 320px; }
+        .process-section .process-container .process-img-wrap .process-img-text h4 {
+          font-size: 50px;
+          font-weight: 600;
+          padding: 25px 0px 0px 235px;
+          margin: 0; }
+        .process-section .process-container .process-img-wrap .process-img-text .process-img-text-down h3 {
+          text-transform: uppercase;
+          font-size: 35px;
+          font-weight: 500; }
+        .process-section .process-container .process-img-wrap .process-img-text .process-img-text-down p {
+          display: none; }
 
 .team-section {
   width: 100%;
