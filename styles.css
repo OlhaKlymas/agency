@@ -86,7 +86,8 @@ a {
 
 .header-btn {
   margin: 497px 400px;
-  position: absolute; }
+  position: absolute;
+  z-index: 2; }
   .header-btn a {
     color: #242424;
     background-color: #fff; }
@@ -95,7 +96,8 @@ a {
   text-align: right;
   position: absolute;
   width: 100%;
-  margin: -14px -19px; }
+  margin: -14px -19px;
+  z-index: 2; }
   .skate img {
     width: 70%; }
 
@@ -104,7 +106,8 @@ a {
   margin: auto; }
 
 .about-us-section {
-  min-height: 483px; }
+  min-height: 483px;
+  z-index: 3; }
   .about-us-section .about-us-bg {
     width: 864px;
     height: 484px;
