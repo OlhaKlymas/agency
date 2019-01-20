@@ -118,7 +118,7 @@ a {
   min-height: 483px;
   z-index: 3; }
   .about-us-section .about-us-bg {
-    width: 864px;
+    width: 750px;
     height: 484px;
     position: absolute;
     background-color: #000;
@@ -132,12 +132,14 @@ a {
   padding-top: 70px;
   position: relative; }
 
-.about-us-text p {
-  font-size: 13px;
-  padding: 50px 0px 73px 20px;
-  line-height: 25px; }
-.about-us-text .btn {
-  margin-left: 11px; }
+.about-us-text {
+  width: 45%; }
+  .about-us-text p {
+    font-size: 13px;
+    padding: 50px 0px 73px 20px;
+    line-height: 25px; }
+  .about-us-text .btn {
+    margin-left: 11px; }
 
 .about-us-lap {
   width: 57%;
