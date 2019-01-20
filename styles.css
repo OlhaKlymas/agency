@@ -90,7 +90,7 @@ a {
       display: block; }
 
 .header-btn {
-  margin: 497px 300px;
+  margin: 435px 300px;
   position: absolute;
   z-index: 4; }
   .header-btn a {
@@ -141,6 +141,16 @@ a {
 
 .about-us-lap {
   width: 57%;
+  padding: 16px 6px 0px 0px; }
+  .about-us-lap img {
+    width: 635px; }
+
+.about-us-bg {
+  width: 664px;
+  height: 484px; }
+
+.about-us-lap {
+  width: 47%;
   padding: 16px 6px 0px 0px; }
   .about-us-lap img {
     width: 635px; }
