@@ -20,6 +20,9 @@ a {
   border-radius: 39px;
   padding: 10px 30px;
   text-transform: uppercase; }
+.btn:hover a {
+  color: #bc2e3a;
+  background-color: #fff; }
 
 .overlay {
   background-image: url(img/bg-top-color.png);
@@ -86,18 +89,20 @@ a {
       display: block; }
 
 .header-btn {
-  margin: 497px 400px;
+  margin: 497px 300px;
   position: absolute;
   z-index: 2; }
   .header-btn a {
     color: #242424;
     background-color: #fff; }
+  .header-btn:hover a {
+    background-color: #bc2e3a; }
 
 .skate {
   text-align: right;
   position: absolute;
   width: 100%;
-  margin: -80px -19px;
+  margin: -45px -19px;
   z-index: 2; }
   .skate img {
     width: 80%; }
