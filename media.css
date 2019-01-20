@@ -1,7 +1,15 @@
+.about-us-bg {
+  width: 60%; }
+
 .about-us-lap {
   width: 37%;
   padding: 16px 6px 0px 0px; }
   .about-us-lap img {
     width: 435px; }
+
+.process-section .process-container {
+  display: block; }
+  .process-section .process-container .process-text {
+    width: 70%; }
 
 /*# sourceMappingURL=media.css.map */
