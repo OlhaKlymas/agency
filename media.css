@@ -38,12 +38,14 @@
   .team-section .owl-carousel .center .team-description {
     margin-left: 40px; } }
 @media only screen and (max-width: 812px) {
-  header .overlay .nav .nav-bar-mini {
-    display: block;
-    color: #fff;
-    font-size: 14px; }
-  header .overlay .nav .nav-bar-menu {
-    display: none; }
+  header .overlay .nav .nav-bar {
+    padding-top: 8px; }
+    header .overlay .nav .nav-bar .nav-bar-mini {
+      display: block;
+      color: #fff;
+      font-size: 30px; }
+    header .overlay .nav .nav-bar .nav-bar-menu {
+      display: none; }
 
   .about-us-section .about-us-lap img {
     width: 410px; } }
