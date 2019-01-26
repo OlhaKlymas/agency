@@ -46,11 +46,12 @@
     display: block;
     color: #fff;
     font-size: 30px;
-    padding-left: 80px;
-    cursor: pointer; }
-    header .overlay .nav .nav-bar-mini:hover .nav .nav-bar .nav-bar-menu {
+    padding-left: 80px; }
+    header .overlay .nav .nav-bar-mini .fas {
+      cursor: pointer; }
+    header .overlay .nav .nav-bar-mini:hover .nav-bar .nav-bar-menu {
       display: block; }
-      header .overlay .nav .nav-bar-mini:hover .nav .nav-bar .nav-bar-menu ul {
+      header .overlay .nav .nav-bar-mini:hover .nav-bar .nav-bar-menu ul {
         transition: 0.5s;
         position: absolute;
         left: 0;
@@ -60,9 +61,9 @@
         background-color: #ffffffe6;
         padding: 25px 0px;
         margin-top: -50px; }
-        header .overlay .nav .nav-bar-mini:hover .nav .nav-bar .nav-bar-menu ul li {
+        header .overlay .nav .nav-bar-mini:hover .nav-bar .nav-bar-menu ul li {
           display: block; }
-          header .overlay .nav .nav-bar-mini:hover .nav .nav-bar .nav-bar-menu ul li a {
+          header .overlay .nav .nav-bar-mini:hover .nav-bar .nav-bar-menu ul li a {
             color: #bc2e3a;
             text-transform: uppercase;
             font-size: 14px;
