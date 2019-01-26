@@ -76,28 +76,30 @@ a, .fab, .fas {
 
 .board {
   position: absolute;
-  height: 100%;
+  min-height: 748px;
   width: 100%;
-  padding-top: 134px;
+  margin-top: -75px;
   background: url(img/bg-top.png) no-repeat;
   background-size: cover;
   background-position: center center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color: #fff; }
-  .board p {
-    width: 70%;
-    color: #fff;
-    font-size: 147px;
-    line-height: 115px;
-    font-weight: 800;
-    text-align: center;
-    text-transform: uppercase;
-    -webkit-text-stroke: 1px black; }
-    .board p span {
-      font-size: 93px;
-      line-height: 63px;
-      display: block; }
+  .board .board-text {
+    padding-top: 100px; }
+    .board .board-text p {
+      width: 70%;
+      color: #fff;
+      font-size: 147px;
+      line-height: 115px;
+      font-weight: 800;
+      text-align: center;
+      text-transform: uppercase;
+      -webkit-text-stroke: 1px black; }
+      .board .board-text p span {
+        font-size: 93px;
+        line-height: 63px;
+        display: block; }
 
 .header-btn {
   margin: 485px 300px;
