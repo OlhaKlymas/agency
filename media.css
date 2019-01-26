@@ -40,21 +40,22 @@
 @media only screen and (max-width: 812px) {
   header .overlay .nav .nav-bar {
     padding-top: 8px; }
-    header .overlay .nav .nav-bar .nav-bar-mini {
+  header .overlay .nav .nav-bar-mini {
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    padding-left: 80px; }
+    header .overlay .nav .nav-bar-mini:hover .nav-bar-menu ul {
       display: block;
-      color: #fff;
-      font-size: 30px; }
-      header .overlay .nav .nav-bar .nav-bar-mini:hover .nav-bar-menu ul {
-        display: block;
-        padding-right: 35px; }
-        header .overlay .nav .nav-bar .nav-bar-mini:hover .nav-bar-menu ul li a {
-          color: #fff;
-          text-transform: uppercase;
-          font-size: 14px;
-          font-weight: 600;
-          padding: 0px 5px;
-          cursor: pointer; }
-    header .overlay .nav .nav-bar .nav-bar-menu {
+      padding-right: 35px; }
+      header .overlay .nav .nav-bar-mini:hover .nav-bar-menu ul li a {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 0px 5px;
+        cursor: pointer; }
+    header .overlay .nav .nav-bar-mini .nav-bar-menu {
       display: none; }
 
   .about-us-section .about-us-lap img {
