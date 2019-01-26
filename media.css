@@ -1,11 +1,20 @@
 @media only screen and (max-width: 1024px) {
+  .overlay, .overlay .board {
+    min-height: 650px; }
+
+  .skate {
+    margin: -12px 65px; }
+
   .about-us-section .about-us-bg {
-    width: 60%; }
+    width: 60%;
+    clip-path: polygon(0 0%, 150% 0, 63% 113%);
+    -webkit-clip-path: polygon(0 0%, 150% 0, 63% 113%);
+    -ms-clip-path: polygon(0 0%, 150% 0, 63% 113%); }
   .about-us-section .about-us-lap {
     width: 37%;
     padding: 16px 6px 0px 0px; }
     .about-us-section .about-us-lap img {
-      width: 435px; }
+      width: 510px; }
 
   .process-section .process-container {
     display: block; }
@@ -18,10 +27,15 @@
     width: 190px; }
   .team-section .owl-carousel .owl-nav {
     width: 135%; }
+    .team-section .owl-carousel .owl-nav .owl-prev:hover, .team-section .owl-carousel .owl-nav .owl-next:hover {
+      height: 97px; }
   .team-section .owl-carousel .center .team-description {
     margin-left: 40px; } }
 @media only screen and (max-width: 768px) {
   header .overlay .nav .nav-bar-menu {
-    visibility: hidden; } }
+    visibility: hidden; }
+
+  .about-us-section .about-us-lap img {
+    width: 410px; } }
 
 /*# sourceMappingURL=media.css.map */
