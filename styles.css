@@ -327,6 +327,8 @@ a, .fab, .fas {
           background: none;
           width: 48px;
           height: 97px; }
+        .team-section .owl-carousel .owl-nav .owl-prev:focus, .team-section .owl-carousel .owl-nav .owl-next:focus {
+          border: none; }
       .team-section .owl-carousel .owl-nav .owl-prev {
         background-image: url(img/arrow-left.png); }
         .team-section .owl-carousel .owl-nav .owl-prev:hover {
