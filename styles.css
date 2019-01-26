@@ -506,7 +506,8 @@ footer {
       font-weight: 600; }
   footer hr {
     margin-top: 28px;
-    width: 46%; }
+    width: 46%;
+    background-color: #fff; }
   footer .copyright {
     margin: auto;
     width: 46%; }
