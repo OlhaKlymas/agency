@@ -10,8 +10,10 @@ p, h2, h3 {
   padding: 0px; }
 
 a {
-  transition: 0.5s;
   text-decoration: none; }
+
+a, .fab, .fas {
+  transition: 0.5s; }
 
 .btn a {
   color: #fff;
