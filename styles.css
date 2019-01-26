@@ -36,7 +36,9 @@ a {
 .nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 22px; }
+  padding-top: 22px;
+  position: relative;
+  z-index: 3; }
   .nav p {
     color: #fff;
     font-size: 35px;
