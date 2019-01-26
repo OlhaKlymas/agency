@@ -227,7 +227,7 @@ a {
     display: flex;
     padding-left: 160px; }
     .process-section .process-container .process-text {
-      width: 24%; }
+      width: 26%; }
       .process-section .process-container .process-text p {
         line-height: 25px;
         font-size: 14px;
@@ -257,12 +257,12 @@ a {
           align-items: flex-end;
           margin-left: -30px; }
         .process-section .process-container .process-img-wrap .process-img:hover .process-img-text .process-img-text-down {
-          padding-bottom: 13px;
-          transition: 0.5s; }
+          padding-bottom: 13px; }
           .process-section .process-container .process-img-wrap .process-img:hover .process-img-text .process-img-text-down p {
             display: block;
             width: 200px;
-            line-height: 24px; }
+            line-height: 24px;
+            transition: 0.5s; }
       .process-section .process-container .process-img-wrap .process-img-text {
         height: 255px;
         width: 167px;
