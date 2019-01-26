@@ -81,6 +81,7 @@ a, .fab, .fas {
   min-height: 748px;
   width: 100%;
   margin-top: -75px;
+  background-image: url(img/bg-top.png);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color: #fff; }
