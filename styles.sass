@@ -44,8 +44,6 @@ a
 		font-size: 35px
 		font-weight: 600
 		padding-left: 58px
-		&:hover
-			font-weight: 800
 .nav-bar
 	padding-top: 18px
 	padding-right: 80px
@@ -62,16 +60,18 @@ a
 		font-weight: 600
 		padding: 0px 5px
 		cursor: pointer
-		&:hover
-			color: #bc2e3a
-			background-color: #fff
-			border-radius: 3px
-
+		
 .nav-bar-buttons
 	.fas, .fab
 		color: #fff
-	.fas
-		padding-right: 20px
+		padding: 0px 10px
+		
+
+.nav-bar-menu a, .nav-bar-buttons .fas .fab
+	&:hover
+		color: #bc2e3a
+		background-color: #fff
+		border-radius: 3px
 
 .board
 	position: absolute
