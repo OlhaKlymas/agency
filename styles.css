@@ -31,8 +31,7 @@ a, .fab, .fas {
 .overlay {
   background-image: url(img/bg-top-color.png); }
 
-.overlay,
-.overlay .board {
+.overlay, .overlay .board {
   min-height: 748px;
   background-size: cover;
   background-position: center;
