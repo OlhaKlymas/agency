@@ -39,11 +39,11 @@
     margin-left: 40px; } }
 @media only screen and (max-width: 812px) {
   header .overlay .nav .nav-bar-mini {
-    visibility: visible;
+    display: block;
     color: #fff;
     font-size: 14px; }
   header .overlay .nav .nav-bar-menu {
-    visibility: hidden; }
+    display: none; }
 
   .about-us-section .about-us-lap img {
     width: 410px; } }

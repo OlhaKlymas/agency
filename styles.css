@@ -53,7 +53,7 @@ a, .fab, .fas {
   padding-top: 18px;
   padding-right: 80px; }
   .nav-bar .nav-bar-mini {
-    visibility: hidden; }
+    display: none; }
 
 .nav-bar-menu, .nav-bar-buttons {
   display: inline-block; }
