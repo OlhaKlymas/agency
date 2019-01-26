@@ -44,10 +44,10 @@
       display: block;
       color: #fff;
       font-size: 30px; }
-      header .overlay .nav .nav-bar .nav-bar-mini:hover .nav-bar-menu {
+      header .overlay .nav .nav-bar .nav-bar-mini:hover .nav-bar-menu ul {
         display: block;
         padding-right: 35px; }
-        header .overlay .nav .nav-bar .nav-bar-mini:hover .nav-bar-menu a {
+        header .overlay .nav .nav-bar .nav-bar-mini:hover .nav-bar-menu ul li a {
           color: #fff;
           text-transform: uppercase;
           font-size: 14px;

@@ -58,9 +58,9 @@ a, .fab, .fas {
 .nav-bar-menu, .nav-bar-buttons {
   display: inline-block; }
 
-.nav-bar-menu {
+.nav-bar-menu ul {
   padding-right: 35px; }
-  .nav-bar-menu a {
+  .nav-bar-menu ul li a {
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
