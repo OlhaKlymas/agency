@@ -48,11 +48,11 @@ a, .fab, .fas {
     font-size: 35px;
     font-weight: 600;
     padding-left: 58px; }
+    .nav p .nav-bar-mini {
+      display: none; }
 
 .nav-bar {
   padding-right: 80px; }
-  .nav-bar .nav-bar-mini {
-    display: none; }
 
 .nav-bar-menu, .nav-bar-buttons {
   display: inline-block; }
