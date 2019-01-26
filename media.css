@@ -46,8 +46,9 @@
     justify-content: space-between;
     width: 100%;
     color: #fff;
-    font-size: 30px;
     padding-left: 80px; }
+    header .overlay .nav .nav-bar-mini .fa-bars {
+      font-size: 30px; }
     header .overlay .nav .nav-bar-mini:hover .nav-bar .nav-bar-menu {
       display: block; }
       header .overlay .nav .nav-bar-mini:hover .nav-bar .nav-bar-menu ul {
