@@ -8,9 +8,6 @@
         font-size: 80px;
         line-height: 55px; }
 
-  .skate {
-    margin: -12px 65px; }
-
   .about-us-section .about-us-bg {
     width: 60%;
     clip-path: polygon(0 0%, 150% 0, 63% 113%);
@@ -40,8 +37,6 @@
 @media only screen and (max-width: 812px) {
   header .overlay .nav .nav-bar-menu {
     visibility: hidden; }
-  header .overlay .skate {
-    margin: -12px 0px; }
 
   .about-us-section .about-us-lap img {
     width: 410px; } }
