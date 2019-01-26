@@ -46,7 +46,28 @@
     display: block;
     color: #fff;
     font-size: 30px;
-    padding-left: 80px; }
+    padding-left: 80px;
+    cursor: pointer; }
+    header .overlay .nav .nav-bar-mini:hover .nav .nav-bar .nav-bar-menu ul {
+      transition: 0.5s;
+      display: block;
+      position: absolute;
+      left: 0;
+      margin: auto;
+      text-align: center;
+      width: 100%;
+      background-color: #ffffffe6;
+      padding: 25px 0px;
+      margin-top: -50px; }
+      header .overlay .nav .nav-bar-mini:hover .nav .nav-bar .nav-bar-menu ul li {
+        display: block; }
+        header .overlay .nav .nav-bar-mini:hover .nav .nav-bar .nav-bar-menu ul li a {
+          color: #bc2e3a;
+          text-transform: uppercase;
+          font-size: 14px;
+          font-weight: 600;
+          padding: 0px 5px;
+          cursor: pointer; }
 
   .about-us-section .about-us-lap img {
     width: 410px; } }
