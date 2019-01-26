@@ -6,7 +6,7 @@
       line-height: 100px; }
       .overlay .board-text p span, .overlay .board .board-text p span {
         font-size: 80px;
-        line-height: 55px; }
+        line-height: 65px; }
 
   .skate {
     margin: -20px 0px; }
@@ -38,6 +38,8 @@
   .team-section .owl-carousel .center .team-description {
     margin-left: 40px; } }
 @media only screen and (max-width: 812px) {
+  header .overlay .nav .nav-bar-mini {
+    visibility: visible; }
   header .overlay .nav .nav-bar-menu {
     visibility: hidden; }
 
