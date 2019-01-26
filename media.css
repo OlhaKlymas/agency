@@ -44,6 +44,16 @@
       display: block;
       color: #fff;
       font-size: 30px; }
+      header .overlay .nav .nav-bar .nav-bar-mini:hover .nav-bar-menu {
+        display: block;
+        padding-right: 35px; }
+        header .overlay .nav .nav-bar .nav-bar-mini:hover .nav-bar-menu a {
+          color: #fff;
+          text-transform: uppercase;
+          font-size: 14px;
+          font-weight: 600;
+          padding: 0px 5px;
+          cursor: pointer; }
     header .overlay .nav .nav-bar .nav-bar-menu {
       display: none; }
 

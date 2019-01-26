@@ -44,14 +44,26 @@
 @media only screen and (max-width: 812px)					
 	header
 		.overlay
-			.nav .nav-bar
-				padding-top: 8px
-				.nav-bar-mini
-					display: block
-					color: #fff
-					font-size: 30px
-				.nav-bar-menu
-					display: none
+			.nav 
+				.nav-bar
+					padding-top: 8px
+					.nav-bar-mini
+						display: block
+						color: #fff
+						font-size: 30px
+						&:hover
+							.nav-bar-menu
+								display: block
+								padding-right: 35px
+								a
+									color: #fff
+									text-transform: uppercase
+									font-size: 14px
+									font-weight: 600
+									padding: 0px 5px
+									cursor: pointer
+					.nav-bar-menu
+						display: none
 	.about-us-section 
 		.about-us-lap
 			img
