@@ -66,7 +66,8 @@ a {
   color: #fff;
   padding: 0px 10px; }
 
-.nav-bar-menu a:hover, .nav-bar-buttons .fas .fab:hover {
+.nav-bar-menu a:hover,
+.nav-bar-buttons .fas:hover, .fab:hover {
   color: #bc2e3a;
   background-color: #fff;
   border-radius: 3px; }
