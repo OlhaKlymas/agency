@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,800')
 
+$colorRed: #bc2e3a
+$colorLight: #fff
+
 body
 	font-family: 'Open Sans', sans-serif
 h2
@@ -14,20 +17,40 @@ a, .fab, .fas
 
 .btn
 	a 
-		color: #fff
-		background-color: #bc2e3a
+		color: $colorLight
+		background-color: $colorRed
 		font-weight: 600
 		font-size: 18px
-		border: 2px solid #bc2e3a
+		border: 2px solid $colorRed
 		border-radius: 39px
 		padding: 10px 30px
 		text-transform: uppercase
 	&:hover
 		a 
-			color: #bc2e3a
-			background-color: #fff
+			color: $colorRed
+			background-color: $colorLight
 
-// *** header start ***
+// ***BUTTON TOP ***
+
+.button-top
+	position: absolute
+	z-index: 999
+	width: 400px
+	margin: 0 auto
+
+#back-top
+	position: fixed
+	bottom: 30px
+	right: 5%
+	.fas 
+		font-size: 60px
+		color: #000
+		background-color: $colorRed
+		border: 1px solid
+		border-radius: 50%
+
+
+// *** HEADER ***
 .overlay
 	background-image: url(img/bg-top-color.png)
 .overlay,.overlay .board
@@ -43,7 +66,7 @@ a, .fab, .fas
 	position: relative
 	z-index: 3
 	p 
-		color: #fff
+		color: $colorLight
 		font-size: 35px
 		font-weight: 600
 		padding-left: 58px
@@ -56,30 +79,32 @@ a, .fab, .fas
 	display: inline-block
 
 .nav-bar-menu
-	ul
-		padding-right: 35px
-		li 
-			text-decoration: none
-			display: inline-block
-			a
-				color: #fff
-				text-transform: uppercase
-				font-size: 14px
-				font-weight: 600
-				padding: 0px 5px
-				cursor: pointer
+	.mini-menu
+		.fas
+			display: none
+		ul
+			padding-right: 35px
+			li 
+				text-decoration: none
+				display: inline-block
+				a
+					color: $colorLight
+					text-transform: uppercase
+					font-size: 14px
+					font-weight: 600
+					padding: 0px 5px
+					cursor: pointer
 		
 .nav-bar-buttons
 	.fas, .fab
-		color: #fff
+		color: $colorLight
 		padding: 5px 10px
-		
 
-.nav-bar-menu a, 
+.nav-bar-menu .mini-menu a, 
 .nav-bar-buttons .fas, .fab
 	&:hover
-		color: #bc2e3a
-		background-color: #fff
+		color: $colorRed
+		background-color: $colorLight
 		border-radius: 3px
 
 .board
@@ -90,12 +115,12 @@ a, .fab, .fas
 	background-image: url(img/bg-top.png)
 	-webkit-background-clip: text
 	-webkit-text-fill-color: transparent
-	background-color: #fff
+	background-color: $colorLight
 	.board-text
 		padding-top: 210px
 		p
 			width: 65%
-			color: #fff
+			color: $colorLight
 			font-size: 147px
 			line-height: 115px
 			font-weight: 800
@@ -112,12 +137,12 @@ a, .fab, .fas
 	z-index: 4
 	a
 		color: #242424
-		background-color: #fff
-		border: 2px solid #fff
+		background-color: $colorLight
+		border: 2px solid $colorLight
 	&:hover
 		a 
 			background-color: transparent
-			color: #fff
+			color: $colorLight
 
 .skate
 	text-align: right
@@ -128,9 +153,8 @@ a, .fab, .fas
 	img
 		width: 80%
 
-// *** header end ***
 
-// *** main start ***
+// *** MAIN ***
 
 .sections-wrap
 	width: 76%
@@ -173,12 +197,13 @@ a, .fab, .fas
 
 
 // *** section SERVICES ***
+
 .services-bg
 	width: 85px
 	height: 170px
 	margin-top: 261px
 	position: absolute
-	background-color: #bc2e3a
+	background-color: $colorRed
 	clip-path: polygon(0% 0%, 100% 50%, 0% 100%)
 	-webkit-clip-path: polygon(0% 0%, 100% 50%, 0% 100%)
 	-ms-clip-path: polygon(0% 0%, 100% 50%, 0% 100%)
@@ -204,7 +229,7 @@ a, .fab, .fas
 		.services-img-wrap
 			width: 62px
 			height: 62px
-			background-color: #bc2e3a
+			background-color: $colorRed
 			border-radius: 50%
 			img
 				display: block
@@ -221,8 +246,9 @@ a, .fab, .fas
 				padding-top: 16px
 
 // *** section PROCESS ***
+
 .process-section
-	background-color: #fff
+	background-color: $colorLight
 	min-height: 617px
 	.process-bg-right
 		width: 485px
@@ -230,7 +256,7 @@ a, .fab, .fas
 		right: 0
 		margin-top: -166px
 		position: absolute
-		background-color: #bc2e3a
+		background-color: $colorRed
 		clip-path: polygon(100% 0%, 100% 100%, 0% 50%)
 		-webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 50%)
 		-ms-clip-path: polygon(100% 0%, 100% 100%, 0% 50%)
@@ -298,7 +324,7 @@ a, .fab, .fas
 				display: flex
 				flex-wrap: wrap
 				align-content: space-between
-				color: #fff
+				color: $colorLight
 				opacity: 0.8
 				margin-left: -25px
 				div:first-child
@@ -317,9 +343,8 @@ a, .fab, .fas
 					p 
 						display: none
 
-			
-
 // *** section TEAM ***
+
 .team-section
 	width: 100%
 	background-color: #f5f5f5
@@ -370,7 +395,7 @@ a, .fab, .fas
 				-webkit-clip-path: polygon(86% 0%, 0% 0%, 14% 100%, 100% 100%)
 				-ms-clip-path: polygon(86% 0%, 0% 0%, 14% 100%, 100% 100%)
 				background-color: #000
-				color: #fff
+				color: $colorLight
 				padding: 7px 15px 7px 15px
 				text-align: center
 				font-weight: 600
@@ -395,7 +420,7 @@ a, .fab, .fas
 					padding: 4px 5px 4px 5px
 					margin: -3px auto
 					&:last-child
-						background-color: #bc2e3a
+						background-color: $colorRed
 						visibility: visible	
 						width: 100px
 						font-size: 10px	
@@ -405,7 +430,8 @@ a, .fab, .fas
 			min-height: 470px
 
 
-// *** section CLIENT ***
+// *** section CLIENTS ***
+
 .clients-section
 	min-height: 547px
 	.client-bg-right
@@ -423,7 +449,7 @@ a, .fab, .fas
 		height: 800px
 		margin-top: -133px
 		position: absolute
-		background-color: #bc2e3a
+		background-color: $colorRed
 		clip-path: polygon(0% 0%, 100% 50%, 0% 100%)
 		-webkit-clip-path: polygon(0% 0%, 100% 50%, 0% 100%)
 		-ms-clip-path: polygon(0% 0%, 100% 50%, 0% 100%)
@@ -472,20 +498,21 @@ a, .fab, .fas
 					height: 66px
 
 // *** FOOTER ***
+
 footer
 	width: 100%
 	min-height: 480px
 	background-image: url(img/bg-down.png)
 	background-size: cover
 	background-position: center center
-	color: #fff
+	color: $colorLight
 	.footer-bg-triangle
 		width: 265px
 		height: 146px
 		right: 0
 		margin-top: 334px
 		position: absolute
-		background-color: #bc2e3a
+		background-color: $colorRed
 		clip-path: polygon(110% 100%, 1% 100%, 56% 0%)
 		-webkit-clip-path: polygon(110% 100%, 1% 100%, 56% 0%)
 		-ms-clip-path: polygon(110% 100%, 1% 100%, 56% 0%)
@@ -533,13 +560,17 @@ footer
 		justify-content: space-between
 		a
 			.fab
-				color: #fff
+				color: $colorLight
 				font-size: 21px
 				font-weight: 600
+			&:hover
+				.fab
+					color: $colorRed
+					background-color: transparent
 	hr
 		margin-top: 28px
 		width: 46%
-		background-color: #fff
+		background-color: $colorLight
 	.copyright
 		margin: auto
 		width: 46%

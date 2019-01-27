@@ -28,6 +28,23 @@ a, .fab, .fas {
   color: #bc2e3a;
   background-color: #fff; }
 
+.button-top {
+  position: absolute;
+  z-index: 999;
+  width: 400px;
+  margin: 0 auto; }
+
+#back-top {
+  position: fixed;
+  bottom: 30px;
+  right: 5%; }
+  #back-top .fas {
+    font-size: 60px;
+    color: #000;
+    background-color: #bc2e3a;
+    border: 1px solid;
+    border-radius: 50%; }
+
 .overlay {
   background-image: url(img/bg-top-color.png); }
 
@@ -57,12 +74,14 @@ a, .fab, .fas {
 .nav-bar-menu, .nav-bar-buttons {
   display: inline-block; }
 
-.nav-bar-menu ul {
+.nav-bar-menu .mini-menu .fas {
+  display: none; }
+.nav-bar-menu .mini-menu ul {
   padding-right: 35px; }
-  .nav-bar-menu ul li {
+  .nav-bar-menu .mini-menu ul li {
     text-decoration: none;
     display: inline-block; }
-    .nav-bar-menu ul li a {
+    .nav-bar-menu .mini-menu ul li a {
       color: #fff;
       text-transform: uppercase;
       font-size: 14px;
@@ -74,7 +93,7 @@ a, .fab, .fas {
   color: #fff;
   padding: 5px 10px; }
 
-.nav-bar-menu a:hover,
+.nav-bar-menu .mini-menu a:hover,
 .nav-bar-buttons .fas:hover, .fab:hover {
   color: #bc2e3a;
   background-color: #fff;
@@ -508,6 +527,9 @@ footer {
       color: #fff;
       font-size: 21px;
       font-weight: 600; }
+    footer .social-buttons a:hover .fab {
+      color: #bc2e3a;
+      background-color: transparent; }
   footer hr {
     margin-top: 28px;
     width: 46%;

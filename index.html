@@ -10,23 +10,30 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<link rel="stylesheet" href="owlcarousel/owl.carousel.css">
 	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+	<link rel="icon" href="img/a-icon.png">
 </head>
 <body>
-	<header data-anchor="home">
+	<div class="button-top">
+   		<div id="back-top"><a href="#top"><i class="fas fa-arrow-circle-up"></i></a></div>
+	</div>
+	<header id="home">
 		<div class="overlay">
 			<div class="nav">
 				<p>Agency</p>
 				<div class="nav-bar">
 					<div class="nav-bar-menu">
-						<ul>
-							<li><a href="#home">Home</a></li>
-							<li><a href="#about-as">About as</a></li>
-							<li><a href="#team">Team</a></li>
-							<li><a href="#services">Services</a></li>
-							<li><a href="#process">Process</a></li>
-							<li><a href="#clients">Clients</a></li>
-							<li><a href="#">Work</a></li>
-						</ul>						
+						<div class="mini-menu">
+							<i class="fas fa-caret-down"></i>
+							<ul>
+								<li><a href="#home">Home</a></li>
+								<li><a href="#about-us">About as</a></li>
+								<li><a href="#team">Team</a></li>
+								<li><a href="#services">Services</a></li>
+								<li><a href="#process">Process</a></li>
+								<li><a href="#clients">Clients</a></li>
+								<li><a href="#">Work</a></li>
+							</ul>		
+						</div>				
 					</div>
 					<div class="nav-bar-buttons">
 						<a href="#"><i class="fas fa-search"></i></a>
@@ -45,7 +52,7 @@
 			<div class="skate"><img src="img/skate.png"></div>
 		</div>
 	</header>	
-	<section data-anchor="about-us" class="about-us-section">
+	<section id="about-us" class="about-us-section">
 		<div class="about-us-bg"></div>
 		<div class="sections-wrap">
 			<div class="about-us-wrap">
@@ -60,7 +67,7 @@
 			</div>
 		</div>
 	</section>
-	<section data-anchor="services" class="services-section">
+	<section id="services" class="services-section">
 		<div class="services-bg"></div>
 		<div class="sections-wrap">
 			<h2>What we do</h2>
@@ -103,7 +110,7 @@
 				<div class="services">
 					<div class="services-container">
 						<div class="services-img-wrap">	
-							<img src="img/Icon-coll.png" alt="Nice Idea">
+							<img src="img/Icon-call.png" alt="Nice Idea">
 						</div>
 						<div class="services-text-wrap">
 							<h3>Nice Idea</h3>
@@ -134,7 +141,7 @@
 				</div>	
 			</div>
 	</section>
-	<section data-anchor="process" class="process-section">
+	<section id="process" class="process-section">
 		<div class="process-bg-right"></div>
 		<div class="process-bg-left"></div>
 		<h2>How we works</h2>
@@ -178,7 +185,7 @@
 			</div>
 		</div>
 	</section>
-	<section data-anchor="team" class="team-section">
+	<section id="team" class="team-section">
 		<h2>Our creative team</h2>
 			<div class="owl-carousel owl-theme">
 			  <div>
@@ -211,7 +218,7 @@
 			  </div>
 			</div>
 	</section>
-	<section data-anchor="clients" class="clients-section">
+	<section id="clients" class="clients-section">
 		<div class="client-bg-right"></div>
 		<div class="client-bg-left"></div>
 		<h2>What client says</h2>
