@@ -22,11 +22,18 @@
     .about-us-section .about-us-lap img {
       width: 510px; }
 
-  .process-section .process-container {
-    display: block; }
-    .process-section .process-container .process-text {
-      width: 40%;
-      position: relative; }
+  .sections-wrap {
+    width: 95%;
+    position: relative;
+    z-index: 1; }
+
+  .process-section {
+    min-height: 750px; }
+    .process-section .process-container {
+      display: block; }
+      .process-section .process-container .process-text {
+        width: 40%;
+        position: relative; }
 
   .team-section .owl-carousel .team-description {
     margin-left: 30px;
@@ -36,16 +43,14 @@
     .team-section .owl-carousel .owl-nav .owl-prev:hover, .team-section .owl-carousel .owl-nav .owl-next:hover {
       height: 97px; }
   .team-section .owl-carousel .center .team-description {
-    margin-left: 40px; } }
-@media only screen and (max-width: 812px) {
-  .sections-wrap {
-    width: 95%; }
+    margin-left: 40px; }
 
-  .services {
+  footer .copyright p {
     position: relative;
-    z-index: 1; }
-    .services:first-child {
-      padding-right: 0px; }
+    z-index: 1; } }
+@media only screen and (max-width: 823px) {
+  .services:first-child {
+    padding-right: 0px; }
 
   .nav-bar-menu {
     display: none; }
@@ -90,7 +95,20 @@
 
   footer .footer-wrap .footer-contact-wrap {
     padding: 55px 0px 40px 0px; } }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 736px) {
+  h2 {
+    font-size: 48px; }
+
+  .header-btn {
+    margin: 510px 160px; }
+
+  .overlay .board .board-text p {
+    font-size: 90px;
+    line-height: 78px; }
+    .overlay .board .board-text p span {
+      font-size: 50px;
+      line-height: 43px; } }
+@media only screen and (max-width: 667px) {
   h2 {
     font-size: 30px;
     position: relative;
@@ -99,13 +117,13 @@
   .overlay {
     min-height: 520px; }
     .overlay .board .board-text p {
-      font-size: 60px;
-      line-height: 47px;
+      font-size: 70px;
+      line-height: 53px;
       text-align: center;
-      width: 100%; }
+      width: 60%; }
       .overlay .board .board-text p span {
-        font-size: 33px;
-        line-height: 25px; }
+        font-size: 40px;
+        line-height: 30px; }
     .overlay .header-btn {
       margin: 310px 75px; }
 
@@ -129,10 +147,6 @@
     .about-us-section .about-us-lap img {
       width: 300px; }
 
-  .process-section .process-container .process-img-wrap .process-img img {
-    width: 330px;
-    height: 225px; }
-
   .services-section {
     padding-bottom: 20px; }
     .services-section h2 {
@@ -150,15 +164,22 @@
       width: 100%; }
     .services:last-child {
       width: 100%; }
+    .services .services-container .services-img-wrap {
+      border: 1px solid #fff; }
     .services .services-container .services-text-wrap {
       width: 100%; }
 
   .process-section {
     min-height: 410px; }
+    .process-section h2 {
+      padding-left: 60px; }
+    .process-section .process-container .process-img-wrap .process-img img {
+      width: 330px;
+      height: 225px; }
     .process-section .process-bg-right {
       width: 570px;
       height: 490px;
-      margin-top: -30px;
+      margin-top: -80px;
       clip-path: polygon(100% 0%, 100% 80%, 0% 20%);
       -webkit-clip-path: polygon(100% 0%, 100% 80%, 0% 20%);
       -ms-clip-path: polygon(100% 0%, 100% 80%, 0% 20%); }
@@ -185,12 +206,13 @@
       margin: -10px 0px 0px -4px; }
 
   .clients-section h2 {
-    margin-left: 25px; }
+    margin-left: 25%; }
   .clients-section .client-bg-right {
     display: none; }
   .clients-section .client-bg-left {
     width: 260px;
-    height: 400px; }
+    height: 400px;
+    margin-top: -90px; }
   .clients-section .client-wrap {
     flex-direction: column; }
     .clients-section .client-wrap .client-img {
@@ -219,5 +241,16 @@
     width: 80%; }
   footer .copyright {
     padding-bottom: 10px; } }
+@media only screen and (max-width: 375px) {
+  .overlay .board .board-text p {
+    font-size: 60px;
+    line-height: 47px;
+    width: 80%; }
+    .overlay .board .board-text p span {
+      font-size: 33px;
+      line-height: 25px; }
+
+  .clients-section h2 {
+    margin-left: 10%; } }
 
 /*# sourceMappingURL=media.css.map */

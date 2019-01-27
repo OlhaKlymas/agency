@@ -21,7 +21,12 @@
 			padding: 16px 6px 0px 0px
 			img
 				width: 510px
+	.sections-wrap
+		width: 95%
+		position: relative
+		z-index: 1
 	.process-section 
+		min-height: 750px
 		.process-container
 			display: block
 			.process-text
@@ -40,13 +45,12 @@
 			.center
 				.team-description
 					margin-left: 40px
-
-@media only screen and (max-width: 812px)
-	.sections-wrap
-		width: 95%		
-	.services
-		position: relative	
+	footer .copyright p
+		position: relative
 		z-index: 1
+
+@media only screen and (max-width: 823px)	
+	.services
 		&:first-child
 			padding-right: 0px		
 	.nav-bar-menu
@@ -99,7 +103,21 @@
 	footer .footer-wrap .footer-contact-wrap
 		padding: 55px 0px 40px 0px
 
-@media only screen and (max-width: 480px)
+@media only screen and (max-width: 736px)
+	h2
+		font-size: 48px
+	.header-btn	
+		margin: 510px 160px
+	.overlay 
+		.board 
+			.board-text p
+				font-size: 90px
+				line-height: 78px
+				span
+					font-size: 50px
+					line-height: 43px
+
+@media only screen and (max-width: 667px)
 	h2
 		font-size: 30px
 		position: relative
@@ -108,13 +126,13 @@
 		min-height: 520px
 		.board 
 			.board-text p
-				font-size: 60px
-				line-height: 47px
+				font-size: 70px
+				line-height: 53px
 				text-align: center
-				width: 100%
+				width: 60%
 				span
-					font-size: 33px
-					line-height: 25px
+					font-size: 40px
+					line-height: 30px
 		.header-btn
 			margin: 310px 75px
 	.about-us-section 
@@ -137,10 +155,6 @@
 				margin-bottom: 40px
 		.about-us-lap img
 			width: 300px
-	.process-section
-		.process-container .process-img-wrap .process-img img
-			width: 330px
-			height: 225px
 	.services-section
 		padding-bottom: 20px
 		h2
@@ -156,19 +170,29 @@
 			width: 100%
 		&:last-child
 			width: 100%
-		.services-container .services-text-wrap
-			width: 100%
+		.services-container 
+			.services-img-wrap
+				border: 1px solid #fff
+			.services-text-wrap
+				width: 100%
+
 	.process-section 
 		min-height: 410px
+		h2 
+			padding-left: 60px
+		.process-container .process-img-wrap .process-img img
+			width: 330px
+			height: 225px
 		.process-bg-right
 			width: 570px
 			height: 490px
-			margin-top: -30px
+			margin-top: -80px
 			clip-path: polygon(100% 0%, 100% 80%, 0% 20%)
 			-webkit-clip-path: polygon(100% 0%, 100% 80%, 0% 20%)
 			-ms-clip-path: polygon(100% 0%, 100% 80%, 0% 20%)
 		.process-container .process-img-wrap, .process-bg-left
 			display: none
+
 	.team-section 
 		min-height: 480px
 		.owl-carousel 
@@ -192,12 +216,13 @@
 
 	.clients-section 
 		h2
-			margin-left: 25px
+			margin-left: 25%
 		.client-bg-right
 			display: none
 		.client-bg-left
 			width: 260px
 			height: 400px
+			margin-top: -90px
 		.client-wrap
 			flex-direction: column
 			.client-img
@@ -226,3 +251,17 @@
 			width: 80%
 		.copyright
 			padding-bottom: 10px
+
+
+@media only screen and (max-width: 375px)
+	.overlay .board .board-text 
+		p
+			font-size: 60px
+			line-height: 47px
+			width: 80%
+			span
+				font-size: 33px
+				line-height: 25px
+	.clients-section 
+		h2
+			margin-left: 10%
