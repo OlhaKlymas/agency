@@ -28,6 +28,7 @@ a, .fab, .fas {
   color: #bc2e3a;
   background-color: #fff; }
 
+/* ***BUTTON TOP *** */
 .button-top {
   position: absolute;
   z-index: 999;
@@ -45,6 +46,7 @@ a, .fab, .fas {
     border: 1px solid;
     border-radius: 50%; }
 
+/* *** HEADER *** */
 .overlay {
   background-image: url(img/bg-top-color.png); }
 
@@ -145,10 +147,12 @@ a, .fab, .fas {
   .skate img {
     width: 80%; }
 
+/* *** MAIN *** */
 .sections-wrap {
   width: 76%;
   margin: auto; }
 
+/* *** section ABOUT US *** */
 .about-us-section {
   min-height: 483px;
   z-index: 3; }
@@ -182,6 +186,7 @@ a, .fab, .fas {
   .about-us-lap img {
     width: 635px; }
 
+/* *** section SERVICES *** */
 .services-bg {
   width: 85px;
   height: 170px;
@@ -232,6 +237,7 @@ a, .fab, .fas {
         line-height: 25px;
         padding-top: 16px; }
 
+/* *** section PROCESS *** */
 .process-section {
   background-color: #fff;
   min-height: 617px; }
@@ -321,6 +327,7 @@ a, .fab, .fas {
         .process-section .process-container .process-img-wrap .process-img-text .process-img-text-down p {
           display: none; }
 
+/* *** section TEAM *** */
 .team-section {
   width: 100%;
   background-color: #f5f5f5;
@@ -403,6 +410,7 @@ a, .fab, .fas {
     .team-section .owl-carousel .owl-stage-outer {
       min-height: 470px; }
 
+/* *** section CLIENTS *** */
 .clients-section {
   min-height: 547px; }
   .clients-section .client-bg-right {
@@ -468,6 +476,7 @@ a, .fab, .fas {
           width: 66px;
           height: 66px; }
 
+/* *** FOOTER *** */
 footer {
   width: 100%;
   min-height: 480px;
