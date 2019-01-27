@@ -352,7 +352,7 @@ a, .fab, .fas {
         -ms-clip-path: polygon(86% 0%, 0% 0%, 14% 100%, 100% 100%);
         background-color: #000;
         color: #fff;
-        padding: 7px 30px 7px 0px;
+        padding: 7px 15px 7px 15px;
         text-align: center;
         font-weight: 600; }
         .team-section .owl-carousel .team-description p:last-child {
@@ -372,7 +372,7 @@ a, .fab, .fas {
         width: 200px;
         margin: -80px 60px 0; }
         .team-section .owl-carousel .center .team-description p {
-          padding: 4px 10px 4px 0px;
+          padding: 4px 5px 4px 5px;
           margin: -3px auto; }
           .team-section .owl-carousel .center .team-description p:last-child {
             background-color: #bc2e3a;

@@ -41,49 +41,188 @@
 				.team-description
 					margin-left: 40px
 
-@media only screen and (max-width: 812px)					
-	header
-		.overlay
-			.nav 
-				.nav-bar
-					.nav-bar-menu
-						display: none
-				.nav-bar-mini
-					display: flex
-					flex-wrap: wrap
-					justify-content: space-between
-					width: 100%
-					color: #fff
-					padding-left: 80px
-					i
-						font-size: 35px
-					.fas, .fab
-						font-size: 25px
-					&:hover
-						.nav-bar
-							.nav-bar-menu
-								display: block
-								ul
-									transition: .5s
-									position: absolute
-									left: 0
-									margin: auto
-									text-align: center
-									width: 100%
-									background-color: #ffffffe6
-									padding: 25px 0px
-									margin-top: -50px
-									li 
-										display: block
-										a
-											color: #bc2e3a
-											text-transform: uppercase
-											font-size: 14px
-											font-weight: 600
-											padding: 0px 5px
-											cursor: pointer
-
+@media only screen and (max-width: 812px)
+	.sections-wrap
+		width: 95%		
+	.services
+		position: relative	
+		z-index: 1
+		&:first-child
+			padding-right: 0px		
+	.nav-bar-menu
+		display: none
+	.board
+		.board-text
+			padding-left: 10px
+								
 	.about-us-section 
 		.about-us-lap
 			img
 				width: 410px
+	.process-section 
+		h2
+			padding-top: 20px
+			padding-left: 50px
+		.process-container
+			padding-left: 50px
+			.process-text
+				width: 95%
+			.process-img-wrap 
+				.process-img 
+					img
+						width: 345px
+					&:last-child 
+						img
+							width: 230px 
+						.process-img-text
+							margin-left: -53px
+					&:hover 
+						.process-img-text .process-img-text-down p
+							width: 160px
+				.process-img-text 
+					h4
+						padding-left: 170px
+					div:first-child 
+						h4
+							padding-left: 250px
+	.team-section .owl-carousel 
+		.owl-nav
+			margin-left: -90px
+		.center .team-description
+			margin: -60px 0px 0
+		.team-description
+			margin-left: -10px
+	.clients-section h2
+		margin-left: 125px
+		position: relative
+		z-index: 1
+	footer .footer-wrap .footer-contact-wrap
+		padding: 55px 0px 40px 0px
+
+@media only screen and (max-width: 480px)
+	h2
+		font-size: 30px
+		position: relative
+		z-index: 1
+	.overlay 
+		min-height: 520px
+		.board 
+			.board-text p
+				font-size: 60px
+				line-height: 47px
+				text-align: center
+				width: 100%
+				span
+					font-size: 33px
+					line-height: 25px
+		.header-btn
+			margin: 310px 75px
+	.about-us-section 
+		width: 85%
+		.about-us-bg
+			clip-path: polygon(0 0%, 152% 0, 115% 96%)
+			-webkit-clip-path: polygon(0 0%, 152% 0, 115% 96%)
+			-ms-clip-path: polygon(0 0%, 152% 0, 115% 96%)
+		.sections-wrap
+			.about-us-wrap
+				flex-direction: column-reverse
+				padding-top: 35px
+		.about-us-text
+			width: 100%
+			p 
+				padding-bottom: 45px
+			h2
+				text-align: center
+			.btn
+				margin-bottom: 40px
+		.about-us-lap img
+			width: 300px
+	.process-section
+		.process-container .process-img-wrap .process-img img
+			width: 330px
+			height: 225px
+	.services-section
+		padding-bottom: 20px
+		h2
+			padding: 40px
+	.services-wrap-first-line
+		padding-bottom: 0px
+	.services
+		width: 100%
+		display: flex
+		flex-wrap: wrap
+		flex-direction: row
+		&:first-child
+			width: 100%
+		&:last-child
+			width: 100%
+		.services-container .services-text-wrap
+			width: 100%
+	.process-section 
+		min-height: 410px
+		.process-bg-right
+			width: 570px
+			height: 490px
+			margin-top: -30px
+			clip-path: polygon(100% 0%, 100% 80%, 0% 20%)
+			-webkit-clip-path: polygon(100% 0%, 100% 80%, 0% 20%)
+			-ms-clip-path: polygon(100% 0%, 100% 80%, 0% 20%)
+		.process-container .process-img-wrap, .process-bg-left
+			display: none
+	.team-section 
+		min-height: 480px
+		.owl-carousel 
+			.owl-stage-outer
+				min-height: 350px
+			.owl-nav
+				display: none
+			.center 
+				transform: scale(2)
+				.team-description
+					width: 80px
+					margin: -13px 3px 0
+					p
+						&:last-child
+							width: 30px
+							font-size: 7px
+			.team-description
+				width: 85px
+				font-size: 10px
+				margin: -10px 0px 0px -4px
+
+	.clients-section 
+		h2
+			margin-left: 25px
+		.client-bg-right
+			display: none
+		.client-bg-left
+			width: 260px
+			height: 400px
+		.client-wrap
+			flex-direction: column
+			.client-img
+				width: 160px
+				height: 160px
+				margin: auto
+			.client-text-wrap
+				width: 90%
+				.client-text
+					padding-left: 30px
+					span
+						font-size: 100px
+				.client-description
+					margin-left: 65px
+				.other-clients
+					margin: 44px 0px 44px 65px
+	footer 
+		.footer-bg-triangle
+			display: none
+		.footer-wrap .footer-contact-wrap
+			flex-direction: column
+			width: 85%
+			.contact .phone img
+				margin-left: 10px
+		.social-buttons, .copyright
+			width: 80%
+		.copyright
+			padding-bottom: 10px
