@@ -294,7 +294,7 @@ a, .fab, .fas {
         .process-section .process-container .process-img-wrap .process-img:last-child img {
           width: 285px; }
         .process-section .process-container .process-img-wrap .process-img:last-child .process-img-text {
-          align-items: flex-end;
+          align-content: flex-end;
           margin-left: -30px; }
         .process-section .process-container .process-img-wrap .process-img:hover .process-img-text .process-img-text-down {
           transition: 0.5s;
