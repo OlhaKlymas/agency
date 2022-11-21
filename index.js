@@ -104,6 +104,3 @@ function deleteCookie(name) {
 	})
 }
 getCookie('occupation');
-
-occupation = getCookie('occupation');
-console.log(occupation);
