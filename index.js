@@ -33,6 +33,7 @@ $(document).ready(function () {
             }, 800);
             return false;
         });
+      
     });
 
 });
@@ -46,3 +47,6 @@ $(document).ready(function(){
         $('body,html').animate({scrollTop: top}, 800);
     });
 });
+      
+// cookie
+document.cookie = "user=John; path=/; expires=Tue, 19 Jan 2038 03:14:07 GMT"
