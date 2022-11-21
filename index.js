@@ -49,4 +49,61 @@ $(document).ready(function(){
 });
       
 // cookie
-document.cookie = "user=John; path=/; expires=Tue, 19 Jan 2038 03:14:07 GMT"
+document.cookie = "age=20; path=/; expires=Tue, 19 Jan 2038 03:14:07 GMT"
+
+// Приклад функції для встановлення Cookie
+function setCookie(name, value, options = {}) {
+
+	options = {
+		path: '/'
+	};
+
+	if (options.expires instanceof Date) {
+	options.expires = options.expires.toUTCString();
+	}
+
+	let updatedCookie = encodeURIComponent(name) + "=" + encodeURIComponent(value);
+
+	for (let optionKey in options) {
+		updatedCookie += "; " + optionKey;
+		let optionValue = options[optionKey];
+
+		if (optionValue !== true) {
+			updatedCookie += "=" + optionValue;
+		}
+	}
+
+	document.cookie = updatedCookie;
+	console.log(updatedCookie)
+}
+
+// Приклад використання
+setCookie('user', 'Olha', {secure: true, 'max-age': 7200});
+setCookie('occupation', 'developer', {secure: true, 'max-age': 7200});
+
+
+
+// Приклад функції для отримання Cookie
+function getCookie(name) {
+	let matches = document.cookie.match(new RegExp(
+	"(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+	));
+	return matches ? decodeURIComponent(matches[1]) : undefined;
+}
+
+let user = getCookie('user');
+console.log(user);
+let occupation = getCookie('occupation');
+console.log(occupation);
+
+
+// Приклад функції для отримання Cookie
+function deleteCookie(name) {
+	setCookie(name, "", {
+		'max-age': -1
+	})
+}
+getCookie('occupation');
+
+occupation = getCookie('occupation');
+console.log(occupation);
